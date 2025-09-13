@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/cyclonedx-bom/
 License:	Apache-2.0
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildSystem:	python
 BuildArch:	noarch
 
